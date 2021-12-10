@@ -1,4 +1,4 @@
-function [G,G_A, G_T] = gainsFromS(S,Z_S, Z_L, Z_0)
+function [G,G_A, G_T] = unmatchedGainsFromS(S,Z_S, Z_L, Z_0)
 % -------------------------------------------------------------------------
 %GAINSFROMS Returns G, G_A, G_T from source and load impedances and [S]
 % From Pozar, page 559:
